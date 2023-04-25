@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.screens.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_fragment1"
+            app:destination="@id/fragment1" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragment2"
+            app:destination="@id/fragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragment3"
+            app:destination="@id/fragment3" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragment4"
+            app:destination="@id/fragment4" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragment5"
+            app:destination="@id/fragment5" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragment6"
+            app:destination="@id/fragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.myapplication.screens.Fragment1"
+        android:label="fragment_1"
+        tools:layout="@layout/fragment_1" >
+        <action
+            android:id="@+id/action_fragment1_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.myapplication.screens.Fragment2"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_2" >
+        <action
+            android:id="@+id/action_fragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.myapplication.screens.Fragment3"
+        android:label="fragment_3"
+        tools:layout="@layout/fragment_3" >
+        <action
+            android:id="@+id/action_fragment3_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.myapplication.screens.Fragment4"
+        android:label="fragment_4"
+        tools:layout="@layout/fragment_4" >
+        <action
+            android:id="@+id/action_fragment4_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="com.example.myapplication.screens.Fragment5"
+        android:label="fragment_5"
+        tools:layout="@layout/fragment_5" >
+        <action
+            android:id="@+id/action_fragment5_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment6"
+        android:name="com.example.myapplication.screens.Fragment6"
+        android:label="fragment_6"
+        tools:layout="@layout/fragment_6" >
+        <action
+            android:id="@+id/action_fragment6_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
