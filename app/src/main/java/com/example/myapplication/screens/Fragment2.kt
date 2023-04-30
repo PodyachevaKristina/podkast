@@ -34,9 +34,7 @@ class Fragment2 : Fragment() {
 
         binding = Fragment2Binding.inflate(layoutInflater, container, false)
         listMusic.add(R.raw.yandex)
-        listMusic.add(R.raw.mobile)
-        listMusic.add(R.raw.itkyrs)
-        listMusic.add(R.raw.games)
+
 
         listNameMusic.add("Как Яндекс развивает детское айти-образование")
         listNameMusic.add("Как стать мобильным разработчиком?")

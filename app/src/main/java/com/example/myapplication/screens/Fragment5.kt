@@ -27,9 +27,6 @@ class Fragment5 : Fragment() {
     ): View? {
         binding = Fragment5Binding.inflate(layoutInflater, container, false)
         listMusic.add(R.raw.neschastn)
-        listMusic.add(R.raw.vigoranie)
-        listMusic.add(R.raw.pravilgizn)
-        listMusic.add(R.raw.organizashion)
 
         listNameMusic.add("Привык быть несчастным. Почему всё хорошо, но удовольствия от жизни мало?")
         listNameMusic.add("Переработки и выгорание — как закончить этот ад?")
