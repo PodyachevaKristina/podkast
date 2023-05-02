@@ -28,6 +28,9 @@ class Fragment4 : Fragment() {
     ): View? {
         binding = Fragment4Binding.inflate(layoutInflater, container, false)
         listMusic.add(R.raw.pochemydymaem)
+        listMusic.add(R.raw.ctraxi)
+        listMusic.add(R.raw.pvsc)
+        listMusic.add(R.raw.neyclozn)
 
 
         listNameMusic.add("Почему мы так много думаем?")

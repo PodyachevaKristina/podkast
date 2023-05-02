@@ -33,7 +33,10 @@ class Fragment2 : Fragment() {
         // Inflate the layout for this fragment
 
         binding = Fragment2Binding.inflate(layoutInflater, container, false)
-        listMusic.add(R.raw.yandex)
+        listMusic.add(R.raw.itobraz)
+        listMusic.add(R.raw.mobilerazr)
+        listMusic.add(R.raw.itkyrs)
+        listMusic.add(R.raw.razrabigr)
 
 
         listNameMusic.add("Как Яндекс развивает детское айти-образование")

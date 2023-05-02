@@ -56,31 +56,32 @@
     <Button
         android:id="@+id/buttonstart"
         style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="100dp"
-        android:layout_height="54dp"
+        android:layout_width="112dp"
+        android:layout_height="55dp"
         android:backgroundTint="#232323"
         android:text="play"
         app:icon="@drawable/baseline_play_arrow_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintHorizontal_bias="0.321"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listv" />
+        app:layout_constraintTop_toBottomOf="@+id/listv"
+        app:layout_constraintVertical_bias="0.503" />
 
     <Button
         android:id="@+id/buttonpause"
         style="@style/Widget.MaterialComponents.Button.Icon"
-        android:layout_width="118dp"
-        android:layout_height="58dp"
+        android:layout_width="130dp"
+        android:layout_height="53dp"
         android:backgroundTint="#232323"
         android:text="pause"
         app:icon="@drawable/baseline_stop_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintHorizontal_bias="0.74"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/listv"
-        app:layout_constraintVertical_bias="0.519" />
+        app:layout_constraintVertical_bias="0.496" />
 
     <ImageView
         android:id="@+id/imageView5"

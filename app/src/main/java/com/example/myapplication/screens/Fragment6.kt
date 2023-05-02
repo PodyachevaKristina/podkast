@@ -28,6 +28,9 @@ class Fragment6 : Fragment() {
     ): View? {
         binding = Fragment6Binding.inflate(layoutInflater, container, false)
         listMusic.add(R.raw.otdx)
+        listMusic.add(R.raw.vernytcebya)
+        listMusic.add(R.raw.oshibki)
+        listMusic.add(R.raw.ystalost)
 
         listNameMusic.add("Почему нам нужен отдых?")
         listNameMusic.add("Как вернуть себе себя и найти смыслы двигаться дальше.")

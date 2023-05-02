@@ -29,6 +29,9 @@ class Fragment3 : Fragment() {
     ): View? {
         binding = Fragment3Binding.inflate(layoutInflater, container, false)
         listMusic.add(R.raw.fond)
+        listMusic.add(R.raw.razymno)
+        listMusic.add(R.raw.tranzirit)
+        listMusic.add(R.raw.banki)
 
         listNameMusic.add("Как заработать на фондовом рынке")
         listNameMusic.add("Как тратить деньги разумно")
